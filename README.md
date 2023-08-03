@@ -1,1 +1,1 @@
-https://spite-vs.github.io/GB_HTML_CSS/Lesson_1/
+https://spite-vs.github.io/GB_HTML_CSS/docs/
