@@ -99,6 +99,7 @@ nav {
 }
 
 .main {
+    padding-bottom: 161px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
