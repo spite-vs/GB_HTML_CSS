@@ -45,7 +45,7 @@ a {
 }
 
 .header {
-    padding: 40px 55px;
+    padding: 40px 30px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
