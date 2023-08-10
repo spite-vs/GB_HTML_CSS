@@ -110,6 +110,12 @@ nav {
     gap: 41px;
 }
 
+
+
+.img_main {
+    max-width: 100%;
+}
+
 .title {
     font-family: 'Gilroy Bold';
     color: #000;
@@ -117,7 +123,7 @@ nav {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width: 522px;
+    max-width: 522px;
 }
 
 .text_main {
@@ -128,12 +134,13 @@ nav {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width: 466px;
+    max-width: 466px;
 }
 
 .action {
     padding: 20px 0px 20px 0px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-start;
     gap: 36px;
