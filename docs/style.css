@@ -50,12 +50,12 @@ a {
 
 .center {
     max-width: 1280px;
-    margin-right: auto;
-    margin-left: auto;
+    padding-left: calc(50% - 640px);
+    padding-right: calc(50% - 640px);
 }
 
 .header {
-    padding: 40px 30px;
+    margin: 40px 30px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -319,4 +319,16 @@ nav {
 .mid_ad {
     background: #FFF;
     box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+@media (max-width: 1024px) {
+    .grid_content {
+        grid-template-columns: 1fr;
+        max-width: 1024px;
+        min-width: 370px;
+    }
+
+    .item_adv {
+        align-items: center;
+    }
 }
