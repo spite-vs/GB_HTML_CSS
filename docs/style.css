@@ -353,7 +353,7 @@ a {
     line-height: normal;
 }
 
-.button:hover .button_text {
+.button_text:hover {
     color: #FFF;
 }
 
